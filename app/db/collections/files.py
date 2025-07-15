@@ -11,4 +11,3 @@ class FileSchema(TypedDict):
     
 COLLECTION_NAME = "files"
 files_collection: AsyncCollection = database[COLLECTION_NAME]
-     
